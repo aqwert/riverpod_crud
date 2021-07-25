@@ -47,7 +47,7 @@ Immutable (freezed code-gen) models that contain the latest data and the status 
 
 **lib/state**
 
-Riverpod's `StateNotifier` instances hold the state of the models. CRUD operations exist on these state classes which use commands to update any API/DB. Chaning the state of the `StateNotifier` will notify any listeners of the changes.
+Riverpod's `StateNotifier` instances hold the state of the models. CRUD operations exist on these state classes which use commands to update any API/DB. Changing the state of the `StateNotifier` will notify any listeners of the changes.
 
 **lib/providers**
 
@@ -66,7 +66,7 @@ The UI with the display of data and reacting to user input. Input can manipulate
 This project does not (and will not) include the following.
 * Advanced navigation or using Flutter 2 navigation system. There are so many ways to implement navigation it is easy to change that as you see fit.
 * Login or authentication. This is a CRUD centric project. You can follow the patterns included in the project to add auth screens. 
-* Fancy UI screens and animation. I deliberately chose not to put too much work into the styling as the focus was on how to implement the CRUD architecture. There are many ways to present data and to provide a rich user experience that forcing too much into this area might make it harder to do it your way
+* Fancy UI screens and animation. I deliberately chose not to put too much work into the styling as the focus was on how to implement the CRUD architecture. There are many ways to present data and to provide a rich user experience that forcing too much into this area might make it harder to do it your way.
 * Any API or http calls. There are dummy implemented commands that you can reimplement to either call a backend server (over http or firebase etc) or a local database like sqflite.
 
 ## What can you do with it
