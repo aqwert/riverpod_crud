@@ -31,7 +31,9 @@ class DateSelectorField extends StatelessWidget {
               lastDate: DateTime.now().add(const Duration(days: 1000)),
             );
 
-            onDateChanged(newDate);
+            if (newDate != null) {
+              onDateChanged(newDate);
+            }
           },
           child: const Text('Set'),
         ),
